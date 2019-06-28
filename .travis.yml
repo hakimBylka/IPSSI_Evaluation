@@ -10,9 +10,3 @@ before_script: true
 script: true
 
 after_script: true
-
-deploy:
- provider: heroku
- api_key:
-   secure: "cle"
- app: app-evaluation
