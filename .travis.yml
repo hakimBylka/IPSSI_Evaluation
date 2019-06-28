@@ -8,7 +8,7 @@ before_install:
 install: true
 
 before_script: true
-script:
+script: true
     #- ./node_modules/.bin/Jshint src
     #- ./node_modules/.bin/Retire
     #- ./node_modules/.bin/Twly
