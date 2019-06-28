@@ -13,6 +13,6 @@ script: true
 after_script: true
 
 deploy:
-    provider: heroku
-    api_key: "c93d73d2-e9a9-43ab-a2c9-611f67e1100b" #vu avec laurent
-        secure: "app_evaluation"
+  provider: heroku
+  api_key: "c93d73d2-e9a9-43ab-a2c9-611f67e1100b" #vu avec laurent
+    secure: app_evaluation
