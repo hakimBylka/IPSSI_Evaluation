@@ -9,8 +9,13 @@ install: true
 
 before_script: true
 script:
-    #- ./node_modules/.bin/Jshint
-    #- ./node_modules/.bin/Retire
-    #- ./node_modules/.bin/Twly
+    - ./node_modules/.bin/Jshint src
+    - ./node_modules/.bin/Retire
+    - ./node_modules/.bin/Twly
 
 after_script: true
+
+deploy:
+  provider: heroku
+  api_key: "c93d73d2-e9a9-43ab-a2c9-611f67e1100b" #vu avec laurent
+    secure: "app_evaluation"
